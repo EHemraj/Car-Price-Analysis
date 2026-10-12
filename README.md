@@ -10,6 +10,19 @@ https://public.tableau.com/views/CarPriceAnalysis_17918339391330/CarPriceAnalysi
 
 - Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's 100GB limit.
 
+This dataset was downloaded from Kaggle. The data was originally compiled from the _1985 Ward's Automotive Yearbook_ and donated to the UCI Machine Learning Repository in 1987. A direct link to the UCI archive page is included inside the data dictionary.
+
+Because the source file did not display unit labels, standard US car measurements were used for this analysis:
+
+- **Price:** US Dollars ($)
+- **Horsepower:** hp
+- **Curb Weight:** Pounds (lbs)
+- **Engine Size:** Cubic inches (cu in)
+- **Fuel Economy:** Miles per gallon (mpg)
+- **Dimensions (wheelbase, length, width, height):** Inches (in)
+
+The full list of all 26 columns and the link to the UCI source page are saved in [`data/raw data/data_dictionary.csv`](data/raw%20data/data_dictionary.csv).
+
 ## Business Requirements
 
 - Describe your business requirements
