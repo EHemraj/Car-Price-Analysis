@@ -65,13 +65,14 @@ The goal of this project is to help a new automobile company understand how car 
 
 ## The rationale to map the business requirements to the Data Visualisations
 
-| Business Question / Hypothesis | Visualisation Used | Rationale for Chart Selection
-| What does the standard US car market look like compared to luxury outliers? | Histograms | Shows the spread and distribution of car prices, highlighting where the majority of everyday vehicles sit versus rare, high-end outliers. |
-| Do core performance specifications (engine size, horsepower) drive up car prices? | Scatter Plots | Provides visual proof that as engine specs increase, the price increases. |
-| Do physical dimensions like curb weight and car length affect the price? | Joint Plots | Highlights the trend between vehicle length/weight and price while also showing the distribution shape of those data points. |
-| Is there a significant price difference based on the car's drivetrain (rear-wheel vs. front-wheel drive)? | Box Plot and descriptive statistics | Shows a visual comparison of the median price and overall price spread between different drive-wheels, highlighting the higher cost of rear-wheel drive vehicles. |
-| Is there a significant price difference between luxury and mainstream brands? | Box Plot | Allows easy visual comparison of the median price and overall price spread between different categorical groups, separating the luxury tier from the mainstream tier. |
-| Can we reliably estimate a car's market price based on its specific attributes? | Actual vs. Predicted Plot | Visually demonstrates the accuracy of the machine learning model by showing how far predictions are from real prices |
+| Business Question / Hypothesis                                                                            | Visualisation Used                  | Rationale for Chart Selection                                                                                                                                         |
+| :-------------------------------------------------------------------------------------------------------- | :---------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| What does the standard US car market look like compared to luxury outliers?                               | Histograms                          | Shows the spread and distribution of car prices, highlighting where the majority of everyday vehicles sit versus rare, high-end outliers.                             |
+| Do core performance specifications (engine size, horsepower) drive up car prices?                         | Scatter Plots                       | Provides visual proof that as engine specs increase, the price increases.                                                                                             |
+| Do physical dimensions like curb weight and car length affect the price?                                  | Joint Plots                         | Highlights the trend between vehicle length/weight and price while also showing the distribution shape of those data points.                                          |
+| Is there a significant price difference based on the car's drivetrain (rear-wheel vs. front-wheel drive)? | Box Plot and descriptive statistics | Shows a visual comparison of the median price and overall price spread between different drive-wheels, highlighting the higher cost of rear-wheel drive vehicles.     |
+| Is there a significant price difference between luxury and mainstream brands?                             | Box Plot                            | Allows easy visual comparison of the median price and overall price spread between different categorical groups, separating the luxury tier from the mainstream tier. |
+| Can we reliably estimate a car's market price based on its specific attributes?                           | Actual vs. Predicted Plot           | Visually demonstrates the accuracy of the machine learning model by showing how far predictions are from real prices                                                  |
 
 ## Analysis techniques used
 
@@ -87,7 +88,7 @@ This project uses a publicly available historical dataset compiled in 1985. It c
 
 ## Dashboard Design
 
-- **Dashboard Link:** https://public.tableau.com/views/CarPriceAnalysis_17918339391330/CarPriceAnalysis?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+- **Dashboard Link:** https://public.tableau.com/app/profile/e.hemraj/viz/CarPriceAnalysis_17918339391330/CarPriceAnalysis
 
 - **Design Strategy:** The dashboard was designed to translate complex Jupyter Notebook outputs into interactive visualisations for a non-technical audience. It allows the audience to filter specific car features and observe how those variables impact car prices within the dataset.
 
@@ -105,7 +106,7 @@ During the EDA phase, running certain visualisations generated a warnings in the
 
 This dashboard is published and hosted on Tableau Public:
 
-- [Car Price & Performance Analysis Dashboard] https://public.tableau.com/views/CarPriceAnalysis_17918339391330/CarPriceAnalysis?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+- [Car Price Analysis Dashboard] https://public.tableau.com/app/profile/e.hemraj/viz/CarPriceAnalysis_17918339391330/CarPriceAnalysis
 
 - The project code and Jupyter Notebooks are hosted in this GitHub repository.
 
