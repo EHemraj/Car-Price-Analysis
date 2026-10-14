@@ -31,6 +31,16 @@ Because the source file did not display unit labels, standard US car measurement
 
 The full list of all 26 columns are in [`data/raw data/data_dictionary.csv`]
 
+## Project Setup & Execution
+
+To run this project locally:
+
+1. Clone this repository to your local system.
+2. Create a virtual environment (.venv).
+3. Install the required dependencies using the terminal command:
+   pip3 install -r requirements.txt
+4. Open the Jupyter Notebook in the jupyter_notebooks directory and select the Python environment kernel to execute the cells.
+
 ## Business Requirements
 
 The goal of this project is to help a new automobile company understand how car prices are determined in the US market so they can successfully compete against existing local and European brands. The main requirements are to explore the data to find out which car features have the greatest effect on price, then build a machine learning model that can predict a car's price based on its specifications.
@@ -113,7 +123,7 @@ This dashboard is published and hosted on Tableau Public:
 - **Code Institute LMS:** Code structures, syntax examples, and data analysis methodologies were used and adapted from the course lessons.
 - **Generative AI (Gemini):** Used as a tutoring and refinement tool. It assisted with writing and adapting code logic, explaining complex statistical concepts, formatting this README, and checking observations and conclusions.
 - **GitHub Copilot:** Predictions used for code and comment sections.
-- **Previous Coursework:** A code line for imports was reused from my own Project 1 submission.
+- **Previous Coursework:** A code line for imports was reused from my own Project 1 submission. The project setup instructions in this ReadMe were taken from my Project 1 submission.
 - **Jayne Lawley (Project 1):** The code to save the cleaned CSV file was adapted from Jayne Lawley's Project 1 submission.
 
 ### Media
