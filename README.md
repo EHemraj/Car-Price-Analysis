@@ -122,7 +122,7 @@ This dashboard is published and hosted on Tableau Public:
 ### Content
 
 - **Code Institute LMS:** Code structures, syntax examples, and data analysis methodologies were used and adapted from the course lessons.
-- **Generative AI (Gemini):** Used as a tutoring and refinement tool. It assisted with writing and adapting code logic, explaining complex statistical concepts, formatting this README, and checking observations and conclusions.
+- **Generative AI (Gemini):** Used as a tutoring and refinement tool. It assisted with writing and adapting code logic, explaining complex statistical concepts, formatting this README, checking observations and conclusions and formatting the project plan.
 - **GitHub Copilot:** Predictions used for code and comment sections.
 - **Previous Coursework:** A code line for imports was reused from my own Project 1 submission. The project setup instructions in this ReadMe were taken from my Project 1 submission.
 - **Jayne Lawley (Project 1):** The code to save the cleaned CSV file was adapted from Jayne Lawley's Project 1 submission.
